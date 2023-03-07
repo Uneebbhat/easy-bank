@@ -1,9 +1,13 @@
 function toggleHide() {
-    var navList = document.querySelector('.nav-list');
-    var mobileNav = document.querySelector('.mobile-nav');
+    const navList = document.querySelector('.nav-list');
+    const mobileNav = document.querySelector('.mobile-nav');
 
-    navList.classList.toggle('hide');
-    mobileNav.classList.toggle('show');
+    if (mobileNav.style.display != 'none') {
+        mobileNav.style.display = 'none'
+    }
+    else {
+        mobileNav.style.display = 'block';
+    }
 }
 
 toggleHide()

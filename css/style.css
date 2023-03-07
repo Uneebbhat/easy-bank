@@ -79,12 +79,14 @@ body {
     text-align: center;
     display: block;
     max-width: 100%;
-    padding: 0 50px;
+    padding: 0 20px;
 }
 
 .mob-nav-list {
     background-color: var(--very-light-gray);
-    /* padding: 10px 70px; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    padding: 10px 70px;
 }
 
 .mobile-nav ul li {
@@ -100,10 +102,10 @@ body {
     padding: 8px 0;
 }
 
-.nav-list.hide {
+.nav-list ul.hide {
     display: none;
 }
 
-.mob-nav-list.show {
+.mob-nav-list ul.show {
     display: block;
 }
