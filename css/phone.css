@@ -1,0 +1,20 @@
+@media screen and (max-width:1008px) {
+    .navbar {
+        padding: 0 20px;
+    }
+
+    .invite {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width:820px){
+    .nav-list ul {
+        display: none;
+    }
+
+    .ham {
+        display: block;
+    }
+}
